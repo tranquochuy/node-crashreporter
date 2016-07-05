@@ -42,7 +42,9 @@ require('crashreporter').configure({
 	},
 	mailSubject: 'advanced.js crashreporter test',
 	mailFrom: 'crashreporter <yourmail@gmail.com>',
-	mailTo: 'yourmail@gmail.com'
+	mailTo: 'yourmail@gmail.com',
+    mailCC: ['yourmail@gmail.com'],
+    mailBCC: ['yourmail@gmail.com']
 });                            
 		
 ```
