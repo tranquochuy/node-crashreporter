@@ -22,7 +22,7 @@
   "license": "BSD",
   "readmeFilename": "README.md",
   "dependencies" : {
-    "nodemailer": "0.3.x",
+    "nodemailer": "0.5.x",
     "mkdirp": "0.3.x"
   },
    "devDependencies" : {
